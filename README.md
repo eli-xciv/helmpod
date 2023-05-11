@@ -19,5 +19,23 @@ The following kind, or k8s object list is supported by `podman` per [their docs]
 - ConfigMap
 - Secret
 
+# Installation
+
+TODO
+
+# How to use
+
+Simplest way to get going is to run your `helm` commands as you would, but with `helmpod` instead.
+
+e.g. 
+```
+# Typical helm install command (Deploys to k8s)
+helm install my-fancy-deployment-name bitnami/kubeapps
+
+# helmpod (Deploys to podman)
+helmpod install my-fancy-deployment-nname bitnami/kubeapps
+
+```
+
 # Contributing
 Contributions are welcome. Please fork this project, create your changes and then submit a PR with your changes.
