@@ -1,6 +1,6 @@
 # helmpod
 
-A utility for using `podman kube-play`  with helm charts. This work is inspired by [this issue](https://github.com/containers/podman/issues/15098). The object of this project is for `helmpod` to give you the ability to effectively `helm install` onto podman.
+A utility for using `podman kube play`  with helm charts. This work is inspired by [this issue](https://github.com/containers/podman/issues/15098). The object of this project is for `helmpod` to give you the ability to effectively `helm install` onto podman.
 
 # How it works
 
